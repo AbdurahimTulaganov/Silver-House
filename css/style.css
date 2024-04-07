@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav {
+    padding: 50px 0 27px 0;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    justify-content:center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+
+}
+
+.menu a {
+    color: #8C8A8A;
+    font-size: 18px;
+    margin: 10px 15px;
+    display: inline-block;
+
+}
+.content {
+    margin-bottom: 30px;
+    width: 100%;
+
+
+}
+
+main {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.main1 {
+    max-width: 730px;
+    width: 100%;
+    background: #F0F0F0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 50px 95px 51px 40px;
+}
+
+.main2 {
+    max-width: 350px;
+    width: 100%;
+    background: #F0F0F0;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 50px 24px 51px 40px;
+
+}
+
+.main1 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4581B7;
+    margin-bottom: 25px;
+    
+}
+
+.main2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4581B7;
+    margin-bottom: 25px;
+    
+}
+
+
+
+.main1 p {
+    font-size: 16px;
+    color: #808080;
+    
+    line-height: 27px;
+    
+}
+
+.main2 p {
+    font-size: 16px;
+    color: #808080;
+    
+    line-height: 27px;
+
+}
+.main2 a {
+    font-size: 16px;
+    color: #808080;
+    display: block;
+}
+
+.main2 .a1 {
+   margin-top: 27px;
+}
+
+.main2 .a2 {
+   
+  margin-top: 54px;
+}
+
+.footer {
+    max-width: 1140px;
+    width: 100%;
+    background: #F0F0F0;
+    color: #808080;
+    display: flex;
+    padding: 15px 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ulfooter {
+    text-align: right;
+    margin: 15px 0;
+}
+
+/* .footer ul {
+    display: block;
+    margin-top: 31px;
+    margin-bottom: 46px;
+    
+} */
+
+.ulfooter h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+   
+    margin-bottom: 11px;
+
+}
+.ulfooter a {
+    font-size: 25px;
+    font-weight: 700;
+    color: #808080;
+   
+   
+}
+.footer img {
+    width: 100%;
+    max-width: 254px;
+}
